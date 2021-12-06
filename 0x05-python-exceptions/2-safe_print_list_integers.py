@@ -1,6 +1,6 @@
 #!/usr/bin/python3
-"""A function printing the first integer values only"""
 def safe_print_list_integers(my_list=[], x=0):
+    """A function printing the first integer values only"""
     my_int = 0
     for p in range(0,x):
         try:
