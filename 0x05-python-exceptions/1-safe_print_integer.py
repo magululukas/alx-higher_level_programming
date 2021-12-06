@@ -1,10 +1,10 @@
 #!/usr/bin/python3
 """Printing an integer with error using .format()"""
 def safe_print_integer(value):
-    value = "Schools open"
+    value = 25
 
     print("{:d}\n".format(value))
-    if (value == NULL):
+    if (value == True):
         return True
     else:
         return False
