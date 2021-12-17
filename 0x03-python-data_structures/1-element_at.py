@@ -1,11 +1,11 @@
 #!/usr/bin/python3
 def element_at(my_list, idx):
+    """retrieve the element in a list"""
     my_list = [1, 2, 3, 4, 5, 6]
-    idx = my_list[1]
     for idx in my_list:
-        print(idx)
+        idx = my_list[1]
     if idx < 0:
         return None
-    if idx > my_list:
+    if idx > len(my_list):
         return None
-    print("the element at idx {:d} is {}\n".format(idx, element_at(my_list, idx)))
+    print("the element at idx {:d} is {:d}\n".format(idx, element_at(my_list, idx)))
